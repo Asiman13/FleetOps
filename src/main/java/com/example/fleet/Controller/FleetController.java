@@ -47,7 +47,7 @@ public class FleetController {
         return fleetService.searchByBrand(brand);
     }
     @GetMapping("/sort")
-    public List<Vehicle> sortVehicle(git stg){
+    public List<Vehicle> sortVehicle(){
         return fleetService.sortVehicle();
     }
 }
